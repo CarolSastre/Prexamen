@@ -11,6 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.prexamen.screens.MainScreen
+import com.example.prexamen.screens.PhotoDetailsScreenPreview
+import com.example.prexamen.serializable.NavigationRoot
 import com.example.prexamen.ui.theme.PrexamenTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,29 +22,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PrexamenTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                NavigationRoot()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    PrexamenTheme {
-        Greeting("Android")
     }
 }
