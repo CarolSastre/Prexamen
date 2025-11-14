@@ -10,26 +10,26 @@ En el archivo libs.version.toml (Nombre_Proyecto\gradle\) tenemos que la versió
 
 <h3>IMPORTAR ICONOS DE MATERIAL3</h3>
 En el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies
-    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+    <code>implementation("androidx.compose.material:material-icons-extended:1.7.8")</code>
 
 <h3>IMPORTAR IMÁGENES DE INTERNET</h3>
 En el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies
-    implementation("io.coil-kt.coil3:coil-compose:3.3.0")
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.3.0")
+    <code>implementation("io.coil-kt.coil3:coil-compose:3.3.0")</code>
+    <code>implementation("io.coil-kt.coil3:coil-network-okhttp:3.3.0")</code>
 
 Después implementar/sincronizar hay que añadir el permiso para acceder a internet en el AndroidManifest.xml (Nombre_proyecto\app\src\main\AndroidManifest.xml)
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <code><uses-permission android:name="android.permission.INTERNET"></uses-permission></code>
     
 <img width="846" height="173" alt="image" src="https://github.com/user-attachments/assets/e5428967-c550-45fb-b7b6-e9e1c8dda8a5" />
 <p>(aunque la segunda vez no me ha funcionado......)</p>
 
 <h3>SERIALIZAR</h3>
 En el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies
-    implementation("androidx.navigation3:navigation3-runtime:1.0.0-beta01")
-    implementation("androidx.navigation3:navigation3-ui:1.0.0-beta01")
+    <code>implementation("androidx.navigation3:navigation3-runtime:1.0.0-beta01")</code>
+    <code>implementation("androidx.navigation3:navigation3-ui:1.0.0-beta01")</code>
     
 En el archivo libs.version.toml (Nombre_Proyecto\gradle\) tenemos que implementar el plugin
-  jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinSerialization"}
+  <code>jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinSerialization"}</code>
 <img width="1236" height="184" alt="image" src="https://github.com/user-attachments/assets/4cf5a1b3-95fd-4489-90e0-9df39a6c1b21" />
 
 Confirmamos que la version de kotlinSerialization sea 2.2.21
