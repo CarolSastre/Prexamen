@@ -21,7 +21,7 @@ Después implementar/sincronizar hay que añadir el permiso para acceder a inter
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     
 <img width="846" height="173" alt="image" src="https://github.com/user-attachments/assets/e5428967-c550-45fb-b7b6-e9e1c8dda8a5" />
-(aunque la segunda vez no me ha funcionado......)
+<p>(aunque la segunda vez no me ha funcionado......)</p>
 
 <h3>SERIALIZAR</h3>
 En el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies
