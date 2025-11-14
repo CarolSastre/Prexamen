@@ -25,6 +25,7 @@
 <p>(aunque la segunda vez no me ha funcionado......)</p>
 
 <h3>SERIALIZAR</h3>
+<p><i>(los pasos de este apartado pueden variar, estar el en orden incorrecto o no necesitar para nada un orden, no lo sé.....)</i></p>
 <p>En el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies</p>
     <code>implementation("androidx.navigation3:navigation3-runtime:1.0.0-beta01")</code>
     <code>implementation("androidx.navigation3:navigation3-ui:1.0.0-beta01")</code>
@@ -35,3 +36,7 @@
 
 <p>Confirmamos que la version de kotlinSerialization sea 2.2.21</p>
 <img width="349" height="338" alt="image" src="https://github.com/user-attachments/assets/1350e240-7186-4bb4-af75-c88ea1661c92" />
+
+<p>Y en el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) añadimos el plugin</p> 
+<img width="570" height="207" alt="image" src="https://github.com/user-attachments/assets/59b2087d-9115-4d28-bfe7-0b1b43c28f20" />
+
