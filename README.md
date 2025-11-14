@@ -1,4 +1,5 @@
-*** POR LO GENERAL LOS ARCHIVOS SALEN EN EL IDE, PERO SINO SE PUEDE ACCEDER A ELLOS EN LA CARPETA DEL PROYECTO ***
+<strong>*** POR LO GENERAL LOS ARCHIVOS SALEN EN EL IDE, PERO SINO SE PUEDE ACCEDER A ELLOS EN LA CARPETA DEL PROYECTO ***</strong>
+
 Las dependencias se añaden en el archivo build.gradle.kt (:app) (Nombre_Proyecto\build.gradle.kt) dentro de la etiqueta de dependencies y luego sincronizar el proyecto
 (suele aparecer una notificación en la parte superior al guardar el archivo)
 <img width="827" height="203" alt="image" src="https://github.com/user-attachments/assets/2079fa75-4110-4ae8-abb5-7cbba3fb8a04" />
