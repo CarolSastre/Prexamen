@@ -18,7 +18,8 @@
     <code>implementation("io.coil-kt.coil3:coil-network-okhttp:3.3.0")</code>
 
 <p>Después implementar/sincronizar hay que añadir el permiso para acceder a internet en el AndroidManifest.xml (Nombre_proyecto\app\src\main\AndroidManifest.xml)</p>
-    <code>'<uses-permission android:name="android.permission.INTERNET"></uses-permission>'</code>
+    <p><code>android:name="android.permission.INTERNET"</code></p>
+    <p><code><uses-permission android:name="android.permission.INTERNET"></uses-permission></code></p>
     
 <img width="846" height="173" alt="image" src="https://github.com/user-attachments/assets/e5428967-c550-45fb-b7b6-e9e1c8dda8a5" />
 <p>(aunque la segunda vez no me ha funcionado......)</p>
